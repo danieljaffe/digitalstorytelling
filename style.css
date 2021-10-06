@@ -1,0 +1,39 @@
+body {
+    background-color:snow;
+}
+
+h1 {
+    color:blue;
+    font-family:'Courier New', Courier, monospace;
+    padding: 20px;
+}
+
+p {
+    color: purple;
+}
+
+h3 {
+    color: red
+}
+
+img {
+    border: 5px solid steelblue;
+    width: 45%;
+    height: 45%;
+    margin-left: 0px;
+}
+
+/* for id= tags (can only be used once) */
+#highlight {
+    color: orange;
+    background-color: green;
+    border: 3px dotted green;
+}
+
+/* For class= (can be used multiple times) */
+/* The `.` indicates its a class */
+.top {
+    background-color: lightgray;
+    float: left;
+}
+
